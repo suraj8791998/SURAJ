@@ -12,23 +12,23 @@ In Linux, each file and directory has three sets of permissions: one for the own
         Group (g): The group associated with the file or directory.
         Others (o): Any other user who has access to the system.
 
-    #  Numeric Representation:
+   # Numeric Representation:
         Permissions are often represented numerically: read (4), write (2), execute (1).
         The sum of these numbers represents the total permission. For example, read and write would be 6 (4 + 2).
 
-    # Changing Permissions:
+   # Changing Permissions:
         The chmod command is used to change permissions.
         Syntax: chmod [options] permissions file/directory
 
-    # Viewing Permissions:
+   # Viewing Permissions:
         The ls command with the -l option shows detailed information, including permissions.
         Example: ls -l file.txt
 
-    # Changing Ownership:
+   #  Changing Ownership:
         The chown command is used to change ownership.
         Syntax: chown [options] new_owner:new_group file/directory
 
-    # Changing Group:
+   #   Changing Group:
         The chgrp command is used to change the group.
         Syntax: chgrp new_group file/directory
 
