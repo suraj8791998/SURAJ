@@ -1,4 +1,4 @@
-# Absolutely! Let's delve into the concepts of pipes and the grep command in Linux.
+Absolutely! Let's delve into the concepts of pipes and the grep command in Linux.
 # Pipes (|):
 
   #  Definition:
